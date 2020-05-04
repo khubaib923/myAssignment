@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 860px;
+    margin: 0 auto;
+    
+}
+.wrapper ul{
+    list-style: none;
+    margin-top: 2%;
+    
+}
+.wrapper ul li{
+    color: #6a5038;
+    font-weight: bold;
+    /* background:#316DC3; */
+    width: 120px;
+    /* border: 1px solid #fff; */
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    
+    position: relative;
+    font-family: big john;
+    /* border-radius: 30px; */
+    cursor: pointer;
+}
+.wrapper ul li:hover{
+    background:#316DC3;
+    width: 120px;
+    border: 1px solid #fff;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    color: #fff;
+    position: relative;
+    font-family: big john;
+    border-radius: 30px;
+}
+.wrapper ul ul{
+    display: none;
+    margin-right: 20px;
+    cursor: pointer;
+    
+    
+}
+.wrapper ul li li {
+    background-color:white ;
+    color: #6a5038;
+    
+}
+.wrapper ul li li:hover {
+    background-color:#316DC3 ;
+    border-radius: 1px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    
+}
+.wrapper ul li:hover > ul{
+    display: block;
+    
+}
+.wrapper ul ul ul{
+    margin-left: 120px;
+    top: 0;
+    position: absolute;
+    cursor: pointer;
+}
+header{
+    height: 55px;
+    background-color:#316dc3;
+    
+}
+.img_class{
+    /* border: 1px solid red; */
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 0px;
+    /* margin: 10px 40px; */
+    cursor: pointer;
+    /* border: 1px solid red; */
+    /* display: inline-block; */
+}
+.img_class:hover{
+    /* border: 1px solid red; */
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 0px;
+    /* margin: 10px 40px; */
+    cursor: pointer;
+    cursor: pointer;
+    transition: .5s ease;
+  opacity: 0.5;  
+}
+.img_class2{
+    /* border: 1px solid red; */
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding: 2px;
+    /* margin: 10px 40px; */
+    cursor: pointer;
+}
+.img_class2:hover{
+    /* border: 1px solid red; */
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding: 2px;
+    cursor: pointer;
+    transition: .5s ease;
+  opacity: 0.5;  
+}
+.img_class1{
+
+    margin: 10px 40px;
+    cursor:pointer;
+    /* border: 1px solid red; */
+    display: inline;
+}
+
+.img_class3{
+    margin-bottom: 17px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.img_class3:hover{
+    margin-bottom: 17px;
+    margin-left: 40px;
+    cursor: pointer;
+    transition: .5s ease;
+  opacity: 0.5;
+}
+
+.titch{
+    width: 100px;
+    height: 30px;
+    position: relative;
+    bottom: 50%;
+    margin-left: 50px;
+    background-color: #f2f7f6;
+    color: #7a816c;
+    cursor: pointer;
+}
+.titch1{
+    width: 100px;
+    height: 30px;
+    position: relative;
+    bottom: 50%;
+    margin-left: 10px;
+    background-color: #f2f7f6;
+    color: #7a816c;
+    cursor: pointer;
+}
+.titch2{
+    width: 100px;
+    height: 30px;
+    position: relative;
+    bottom: 50%;
+    margin-left: 10px;
+    background-color: #f2f7f6;
+    color: #7a816c;
+    cursor: pointer;
+}
+nav{
+    height: 80px;
+    background-color:white;
+    
+    /* border: 1px solid red; */
+}
+.saylaniLogo{
+    width: 17%;
+    margin: 10px 60px;
+}
+ 
+.wrapper{
+    position: relative;
+    bottom: 100%;
+    left:15%;
+}
+.chairman{
+    width: 100px;
+}
+.homa{
+     
+    background:#316DC3;
+    width: 120px;
+    /* border: 1px solid #fff; */
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    color:white;
+    position: relative;
+    font-family: big john;
+    border-radius: 30px;         
+}
+.homa:hover{
+     
+    background:#316DC3;
+    width: 120px;
+    border: 1px solid #fff;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    color: #fff;
+    position: relative;
+    font-family: big john;
+    border-radius: 30px;         
+}
+                  /* Slider */
+.slide_s1{
+    /* border: 1px solid red; */
+    height: 200px;
+}
+.slider1{
+    /* border: 1px solid black; */
+    position: relative;
+    bottom: 39%;
+}
+.zero_div{
+    margin-bottom: 60px;
+}
+.first_span{
+    height: 90px;
+    background-color: green;
+    /* border: 1px solid red; */
+    width: 100%;
+}
+.again_section{
+    /* border: 1px solid red; */
+    height: 500px;
+    /* background-color: yellow; */
+    
+}
+p{
+    background-color: #2c71be;
+    color: black;
+    height: 40px;
+    width: 80%;
+    text-align: center;
+    margin-left: 120px;
+    padding-top: 9px;
+    color: white;    
+}
+.section3{
+    height: 700px;
+    /* border: 1px solid black; */
+    margin-top: 122px;
+    background-color: #f7f8fa;
+}
+.h11{
+    /* border: 1px solid red; */
+    width: 5%;
+    margin-left: 500px;
+    margin-top: 70px;
+    position: relative;
+    top: 6.5%;
+    left:2.5%;
+    color: #2c71be;
+    font-size: 35px;
+}
+.h22{
+    /* border: 1px solid green; */
+    width: 10%;
+    margin-left: 650px;
+    margin-bottom: 150px;
+    color: green;
+    font-size: 35px;
+}
+.sa{
+    margin-left: 500px;
+  
+}
+.sa1{
+    margin-left: 130px;
+}
+.next_div{
+    height: 300px;
+    background-color:#2755e9;
+}
+.numImg{
+    margin-top: 20px;
+}
+.next_section{
+    background-color: #f7f8fa;
+    height: 700px;
+    /* border: 1px solid red;    */
+}
+
+.last_section{
+    height: 1000px;
+    /* border:1px solid green ; */
+}
+.upcome{
+    height: 300px;
+    width: 30%;
+    color: black;
+    /* border: 1px solid red; */
+    float: right;
+    margin-top: 120px;
+    margin-right: 30px;
+    border-bottom: white;
+    border-left: white;
+    border-right: white;
+    border-top:green;
+    /* border: 1px solid red; */
+}
+.mark{
+    /* border: 1px solid blue; */
+    position: relative;
+    bottom: 85%;
+}
+footer{
+    height: 400px;
+    background-color: #24272e;
+}
+.last_footer{
+    height: 50px;
+    background-color: #316dc3;
+}
+.pap{
+    padding-top: 20px;
+    height: 5px;
+}
+.special_div{
+    width: 100%;
+    position: fixed;
+ 
+}
+.arrow_div{
+    
+    float: right;
+    margin-right: 60px;
+    margin-top: 370px;
+    
+}
+h1{
+    background:#316DC3;
+    width: 120px;
+    /* border: 1px solid #fff; */
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    color:white;
+    position: relative;
+    font-family: big john;
+    border-radius: 30px;         
+    font-size: 16px;
+}
+/* .sliderbox{
+    position: relative;
+    width: 3400px;
+    animation-name: slideranimation;
+    animation-duration: 20s;
+}
+.sliderbox img{
+    float: left;
+} */
